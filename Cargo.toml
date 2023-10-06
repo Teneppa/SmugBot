@@ -1,0 +1,11 @@
+[package]
+name = "SmugBot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+twitch-irc = "5.0.1"
+
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15.0"
+env-file-reader = "0.3.0"
