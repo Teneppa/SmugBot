@@ -58,7 +58,7 @@ pub async fn main() {
     // This function only returns an error if the passed channel login name is malformed,
     // so in this simple case where the channel name is hardcoded we can ignore the potential
     // error with `unwrap`.
-    // NOTE: Remeber to add a channel to join!
+    // NOTE: Remember to add a channel to join!
     let join_channel = "".to_owned();
     client.join(join_channel.to_owned()).unwrap();
 
@@ -79,7 +79,6 @@ pub async fn main() {
                     // msg.message_text.contains("substring")
                     // msg.message_text.starts_with("!cmd")
                     // client.say(join_channel.to_owned(), "message".to_owned()).await.unwrap();
-                    }
                 },
                 ServerMessage::Whisper(msg) => {
                     println!("(w) {}: {}", msg.sender.name, msg.message_text);
