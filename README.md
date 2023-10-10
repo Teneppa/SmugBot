@@ -1,5 +1,5 @@
 # SmugBot
-A twitch chatbot written in Rust
+A twitch chatbot (template for now) written in Rust
 
 ### Cargos
 * Twitch chat: https://docs.rs/twitch-irc/5.0.1/twitch_irc/
